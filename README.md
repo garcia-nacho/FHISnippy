@@ -1,4 +1,4 @@
-# Phylogenetic tree of samples from Group A Streptococcus (GAS)
+# Phylogenetic tree generation from Group A Streptococcus (GAS) samples
 
 The analysis is based on [snippy](https://github.com/tseemann/snippy) and it runs:   
 
