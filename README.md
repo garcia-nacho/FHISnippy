@@ -7,7 +7,7 @@ The analysis is based on [snippy](https://github.com/tseemann/snippy) and it run
 3. Tree generation via FastTree
 
 ## Running the analysis.
-To run the analysis you need to copy the fastq files from the GAS samples inside a folder (e.g ./fastq) and run the following command where **-e inputfodler= ** points to the fodler that you have created.
+To run the analysis you need to copy the fastq files from the GAS samples inside a folder (e.g ./fastq) and run the following command where <code>-e inputfodler= </code> points to the fodler that you have created.
 
  <code>docker run -it --rm -v $(pwd):/Data -e inputfolder="fastq" ghcr.io/garcia-nacho/fhisnippy</code>
 
